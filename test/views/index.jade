@@ -1,0 +1,19 @@
+
+script(type="text/javascript")
+  $(function() {
+    new Calendar({
+      append_to: 'calendar',
+      num_weeks: Math.ceil(1.5 * 51),
+      day_size: 11,
+      data: [
+        ['2012-03-01', 123],
+        ['2012-03-02', 456.7],
+        ['2012-03-04', 234]
+      ]
+    });
+  });
+
+center
+  h2 Calendar
+  #calendar
+

@@ -1,0 +1,14 @@
+{
+  "name":"js-chart-widgets",
+  "version":"0.0.0",
+  "devDependencies": {
+    "jade": "0.20.3",
+    "stylus": "0.22.2",
+    "express": "2.5.8",
+    "coffeesurgeon": "0.0.3",
+    "coffee-script": "1.1.0",
+    "closure-compiler": "0.1.1",
+    "moof": "0.0.12",
+    "connect-assets": "2.1.8"
+  }
+}
