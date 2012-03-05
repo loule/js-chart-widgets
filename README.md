@@ -9,7 +9,7 @@ cake build
 
     new Calendar({
       append_to: 'some_id',
-      num_weeks: Math.ceil(1.5 * 51),
+      num_weeks: 51,
       day_size: 11,
       data: [
         ['2012-03-01', 123],
@@ -19,6 +19,7 @@ cake build
       ]
     });
 
+![](https://github.com/jfdi/js-chart-widgets/raw/master/doc/calendar.png)
 
 ## The Means
 
