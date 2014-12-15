@@ -20,7 +20,7 @@ cake build
       color: '#005500'
     });
 
-![](https://github.com/jfdi/js-chart-widgets/raw/master/doc/calendar.png)
+![](https://github.com/loule/js-chart-widgets/blob/master/doc/calendar.png)
 
 ## The Means
 
