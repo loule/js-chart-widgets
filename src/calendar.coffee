@@ -18,7 +18,7 @@ strftime_Ymd = (date) ->
 
 
 class Calendar extends Element
-  constructor: ({data, day_size, num_weeks, append_to}) ->
+  constructor: ({color, data, day_size, num_weeks, append_to}) ->
     super 'div', 'Calendar'
     if append_to
       document.getElementById(append_to).appendChild @_
@@ -26,7 +26,7 @@ class Calendar extends Element
     for [k, v] in data
       if v > max_value
         max_value = v
-    colorizer = make_colorizer '#FFFFFF', '#0021CB', 0, max_value
+    colorizer = make_colorizer '#FFFFFF', color, 0, max_value
     w = (day_size * num_weeks) + (1 * (num_weeks + 1))
     h = (day_size * 7) + (1 * (7 + 1))
     dayHolder = D()
