@@ -16,10 +16,11 @@ cake build
         ['2012-03-02', 456.7],
         // gaps are fine
         ['2012-03-04', 234]
-      ]
+      ],
+      color: '#005500'
     });
 
-![](https://github.com/jfdi/js-chart-widgets/raw/master/doc/calendar.png)
+![](https://github.com/loule/js-chart-widgets/blob/master/doc/calendar.png)
 
 ## The Means
 
