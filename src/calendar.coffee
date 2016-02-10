@@ -31,8 +31,8 @@ class Calendar extends Element
     h = (day_size * 7) + (1 * (7 + 1))
     dayHolder = D()
     dayHolder.setStyles {
-      width: w
-      height: h
+      width: w + 'px'
+      height: h + 'px'
       position: 'relative'
       background: '#999999'
     }
@@ -55,12 +55,12 @@ class Calendar extends Element
       for y in [0...7]
         day = D()
         day.setStyles {
-          width: day_size
-          height: day_size
+          width: day_size + 'px'
+          height: day_size + 'px'
           background: '#FFFFFF'
           position: 'absolute'
-          left: (1 + (day_size + 1) * x)
-          top:  (1 + (day_size + 1) * y)
+          left: (1 + (day_size + 1) * x) + 'px'
+          top:  (1 + (day_size + 1) * y) + 'px'
           zIndex: 2
         }
         days["#{x}:#{y}"] = day
